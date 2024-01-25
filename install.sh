@@ -18,6 +18,7 @@ yay -S hyprland  # wayland composer
 yay -S hyprpaper # wallpaper handler
 yay -S nautilus  # gnome file manager
 yay -S gdm       # gnome greeter / login
+yay -S loupe     # lightweight image viewer
 
 yay -S webp-pixbuf-loader     # lib to render webp
 yay -S gnome-control-center   # optional gnome settings

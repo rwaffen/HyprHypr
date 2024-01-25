@@ -40,6 +40,7 @@ yay -S rofi # install rofi - replacement
 cp -vr config/waybar ~/.config
 cp -vr config/mako ~/.config
 cp -vr config/rofi ~/.config
+cp -vr local/share/rofi ~/.local/share/rofi
 
 # Applications
 yay -S syncthing

@@ -50,8 +50,9 @@ sudo systemctl enable --now syncthing@${USER}.service
 yay -S telegram-desktop # chat tool
 yay -S steam            # needs multilib
 yay -S discord          # chat for gamers
-yay -S google-chrome
-yay -S 1password
+yay -S google-chrome    # brwoser :P
+yay -S 1password        # password manager
+yay -S vlc              # media player
 
 # proton GE
 wget https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-27/GE-Proton8-27.tar.gz

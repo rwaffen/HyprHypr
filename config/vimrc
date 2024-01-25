@@ -26,4 +26,3 @@ set expandtab
 
 " Do not save backup files.
 set nobackup
-

@@ -3,4 +3,3 @@
 killall waybar
 
 waybar &
-

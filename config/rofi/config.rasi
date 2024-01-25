@@ -1,0 +1,7 @@
+configuration {
+  show-icons: true;
+}
+
+//@theme "/home/vuaran/.local/share/rofi/themes/spotlight-dark.rasi"
+//@theme "/home/vuaran/.local/share/rofi/themes/windows11-grid-light.rasi"
+@theme "/home/vuaran/.local/share/rofi/themes/spotlight-dark.rasi"

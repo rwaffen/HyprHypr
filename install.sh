@@ -7,6 +7,7 @@ yay -S less  # better more
 yay -S eza   # better ls
 yay -S dysk  # better df
 yay -S htop  # better top
+yay -S ncdu  # better du
 
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp config/zshrc ~/.zshrc
@@ -84,3 +85,4 @@ yay -S noto-fonts-emoji
 yay -S ttf-jetbrains-mono-nerd
 yay -S ttf-nerd-fonts-symbols-common
 yay -S adobe-source-code-pro-fonts
+

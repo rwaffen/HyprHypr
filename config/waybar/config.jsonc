@@ -31,7 +31,7 @@
       "format": "{id}",
       "all-outputs": false,
       "persistent_workspaces": {
-        "*": 5
+        "*": 3
       }
     },
 

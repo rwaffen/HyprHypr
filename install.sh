@@ -28,6 +28,7 @@ yay -S loupe                # lightweight image viewer
 yay -S gnome-control-center # optional gnome settings
 
 yay -S webp-pixbuf-loader     # lib to render webp
+yay -S ffmpegthumbnailer      # lib to get video thumbnails
 yay -S xdg-desktop-portal-gtk # for desktop sharing needed somehow
 
 rm -rf ~/.config/hypr && ln -s /opt/install/HyprHypr/config/hypr ~/.config/hypr

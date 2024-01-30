@@ -8,8 +8,6 @@
     "height": 50,
 
     "modules-left": [
-        "clock",
-        "custom/weather",
         "hyprland/workspaces"
     ],
 
@@ -19,6 +17,8 @@
         "network",
         "bluetooth",
         "tray",
+        "clock",
+        "custom/weather",
         "pulseaudio",
         "pulseaudio#microphone"
     ],

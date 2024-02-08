@@ -18,14 +18,20 @@ rm ~/.zshrc && ln -s /opt/install/HyprHypr/config/zshrc ~/.zshrc
 rm ~/.vimrc && ln -s /opt/install/HyprHypr/config/vimrc ~/.vimrc
 
 # wm
+## hyprland
 yay -S hyprland  # wayland composer
 yay -S hyprpaper # wallpaper handler
 yay -S hyprshot  # screenshots
 
+## gnome
 yay -S nautilus             # gnome file manager
 yay -S gdm                  # gnome greeter / login
 yay -S loupe                # lightweight image viewer
 yay -S gnome-control-center # optional gnome settings
+yay -S extension-manager    # gnome extension manager
+
+# install appindicator
+# https://linuxiac.com/how-to-enable-system-tray-icons-in-gnome/
 
 yay -S webp-pixbuf-loader     # lib to render webp
 yay -S ffmpegthumbnailer      # lib to get video thumbnails
@@ -88,4 +94,3 @@ yay -S noto-fonts-emoji
 yay -S ttf-jetbrains-mono-nerd
 yay -S ttf-nerd-fonts-symbols-common
 yay -S adobe-source-code-pro-fonts
-

@@ -1,4 +1,3 @@
-#!/bin/bash
+j#!/bin/bash
 
 swaylock --config ~/.config/swaylock/config
-

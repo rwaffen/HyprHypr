@@ -18,10 +18,10 @@ rm ~/.zshrc && ln -s /opt/install/HyprHypr/config/zshrc ~/.zshrc
 rm ~/.vimrc && ln -s /opt/install/HyprHypr/config/vimrc ~/.vimrc
 
 # wm
-## hyprland
-yay -S hyprland  # wayland composer
-yay -S hyprpaper # wallpaper handler
-yay -S hyprshot  # screenshots
+yay -S hyprland         # wayland composer
+yay -S hyprpaper        # wallpaper handler
+yay -S hyprshot         # screenshots
+yay -S swaylock-effects # lockscreen
 
 ## gnome
 yay -S nautilus             # gnome file manager
@@ -37,7 +37,8 @@ yay -S webp-pixbuf-loader     # lib to render webp
 yay -S ffmpegthumbnailer      # lib to get video thumbnails
 yay -S xdg-desktop-portal-gtk # for desktop sharing needed somehow
 
-rm -rf ~/.config/hypr && ln -s /opt/install/HyprHypr/config/hypr ~/.config/hypr
+rm -rf ~/.config/swaylock   && ln -s /opt/install/HyprHypr/config/swaylock ~/.config/swaylock
+rm -rf ~/.config/hypr       && ln -s /opt/install/HyprHypr/config/hypr ~/.config/hypr
 rm ~/.config/user-dirs.conf && ln -s /opt/install/HyprHypr/config/user-dirs.conf ~/.config/user-dirs.conf
 rm ~/.config/user-dirs.dirs && ln -s /opt/install/HyprHypr/config/user-dirs.dirs ~/.config/user-dirs.dirs
 rm ~/.config/mimeapps.list  && ln -s /opt/install/HyprHypr/config/mimeapps.list ~/.config/mimeapps.list

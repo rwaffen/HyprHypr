@@ -29,6 +29,7 @@ yay -S gdm                  # gnome greeter / login
 yay -S loupe                # lightweight image viewer
 yay -S gnome-control-center # optional gnome settings
 yay -S extension-manager    # gnome extension manager
+yay -S language-pack-gnome-de
 
 # install appindicator
 # https://linuxiac.com/how-to-enable-system-tray-icons-in-gnome/
@@ -83,6 +84,8 @@ wget https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Pr
 mkdir -p ~/.steam/root/compatibilitytools.d
 tar -xf GE-Proton8-27.tar.gz -C ~/.steam/root/compatibilitytools.d/
 rm GE-Proton8-27.tar.gz
+yay -S protontricks
+yay -S gamemode
 
 # remove if installed by dependencies
 yay -R thunderbird

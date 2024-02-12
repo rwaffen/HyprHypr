@@ -75,6 +75,7 @@ yay -S 1password        # password manager
 yay -S vlc              # media player
 yay -S mc               # Norton Commander clone
 yay -S code             # Open Source build of Visual Studio Code
+yay -S hexchat          # irc, x-chat fork/clone
 
 rm -rf ~/.config/mc && ln -s /opt/install/HyprHypr/config/mc ~/.config/mc
 rm -rf ~/.config/htop && ln -s /opt/install/HyprHypr/config/htop ~/.config/htop

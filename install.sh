@@ -98,3 +98,6 @@ yay -S noto-fonts-emoji
 yay -S ttf-jetbrains-mono-nerd
 yay -S ttf-nerd-fonts-symbols-common
 yay -S adobe-source-code-pro-fonts
+
+# misc
+rm -f ~/.config/locale.conf && ln -s /opt/install/HyprHypr/config/locale.conf ~/.config/locale.conf
